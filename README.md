@@ -6,7 +6,7 @@
     <a href="#-english-version">🇬🇧 English Version</a> | <a href="#-versión-en-español">🇲🇽 Versión en Español</a>
   </p>
 
-  <a href="https://tu-enlace-a-streamlit.app/">
+  <a href="https://genomic-ml.streamlit.app/">
     <img src="https://img.shields.io/badge/Streamlit-Clinical_Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App" />
   </a>
   <img src="https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -72,18 +72,33 @@ The XGBoost algorithm sequentially builds decision trees, optimizing a logistic 
 
 ---
 
-## 📊 Deployment (Interactive Clinical Dashboard)
-The analytical pipeline was packaged into a `Streamlit` application tailored for medical personnel.
+## 📊 Dual Deployment (Clinical Intelligence & BI)
+The analytical pipeline was deployed across two distinct platforms to serve different end-users: clinical operations and strategic management.
+
+### 1. Interactive Clinical Application (Streamlit)
+Designed for medical personnel, enabling real-time interaction with the Machine Learning predictive engine.
 
 *   **Tab 1 - Predictive Performance (ML):** Real-time analysis of predictive risk distribution and cohort filtering.
-*   **Tab 2 - Biomarker Significance (Stats):** Interactive auditing of the top 15 most statistically significant components.
-*   **Executive PDF Generator:** Closes the gap between data and clinical operation by allowing users to export static, customized PDF reports for integration into Electronic Health Records (EHR).
+*   **Tab 2 - Biomarker Significance (Stats):** Interactive auditing of the top 10 most statistically significant components.
+*   **Executive PDF Generator:** Closes the gap between data and clinical operations by allowing users to export static, customized PDF reports for integration into Electronic Health Records (EHR).
 
 <div align="center">
-  <img src="tableau_dashboard/biotech_dashboard_images/dashboard_preview.png" width="900" alt="Streamlit App Interface" />
+  <img src="ruta/a/tu/gen-lm-stream.png" width="900" alt="Streamlit Clinical App Interface" />
   <br><br>
-  <a href="https://tu-enlace-a-streamlit.app/">
+  <a href="https://genomic-ml.streamlit.app/">
     <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_APP-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open Live App" />
+  </a>
+</div>
+<br>
+
+### 2. Executive Dashboard (Tableau Public)
+Designed for healthcare analysts and decision-makers, providing a static, consolidated view of cohort risk and the mathematical validity of biomarkers.
+
+<div align="center">
+  <img src="tableau_dashboard/biotech_dashboard_images/dashboard_preview.png" width="900" alt="Executive Tableau Dashboard" />
+  <br><br>
+  <a href="https://public.tableau.com/views/Genomic-Classifier-Decision-Engine/Dashboard1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
+    <img src="https://img.shields.io/badge/📊_VIEW_ON_TABLEAU_PUBLIC-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="View on Tableau" />
   </a>
 </div>
 
@@ -146,18 +161,33 @@ El algoritmo XGBoost construye árboles de decisión secuencialmente para predec
 
 ---
 
-## 📊 Despliegue (Dashboard Clínico Interactivo)
-Todo el pipeline analítico se empaquetó en una aplicación `Streamlit` diseñada para personal médico.
+## 📊 Despliegue Dual (Inteligencia Clínica y BI)
+El pipeline analítico se materializó en dos plataformas distintas para atender a diferentes usuarios finales: la operación clínica y la dirección estratégica.
+
+### 1. Aplicación Clínica Interactiva (Streamlit)
+Diseñada para el personal médico, permite la interacción en tiempo real con el motor predictivo de Machine Learning.
 
 *   **Pestaña 1 - Rendimiento Predictivo (ML):** Análisis en tiempo real de la distribución del riesgo predictivo y filtrado de cohortes.
-*   **Pestaña 2 - Significancia (Stats):** Auditoría interactiva de los 15 componentes biológicos de mayor peso estadístico.
+*   **Pestaña 2 - Significancia (Stats):** Auditoría interactiva de los 10 componentes biológicos de mayor peso estadístico.
 *   **Generador Ejecutivo PDF:** Cierra la brecha entre los datos y la operación clínica permitiendo a los usuarios exportar reportes PDF estáticos y personalizados para integrarlos al Expediente Clínico Electrónico (EHR).
 
 <div align="center">
-  <img src="tableau_dashboard/biotech_dashboard_images/dashboard_preview.png" width="900" alt="Interfaz de la App en Streamlit" />
+  <img src="ruta/a/tu/gen-lm-stream.png" width="900" alt="Interfaz de la App en Streamlit" />
   <br><br>
-  <a href="https://tu-enlace-a-streamlit.app/">
-    <img src="https://img.shields.io/badge/🚀_ABRIR_APP_EN_VIVO-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Abrir App" />
+  <a href="https://genomic-ml.streamlit.app/">
+    <img src="https://img.shields.io/badge/🚀_ABRIR_APP_EN_VIVO-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Abrir Streamlit" />
+  </a>
+</div>
+<br>
+
+### 2. Dashboard Ejecutivo (Tableau Public)
+Diseñado para analistas de salud y tomadores de decisiones, ofrece una vista estática y consolidada del riesgo de la cohorte y la validez matemática de los biomarcadores.
+
+<div align="center">
+  <img src="tableau_dashboard/biotech_dashboard_images/dashboard_preview.png" width="900" alt="Dashboard Ejecutivo en Tableau" />
+  <br><br>
+  <a href="https://public.tableau.com/views/Genomic-Classifier-Decision-Engine/Dashboard1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
+    <img src="https://img.shields.io/badge/📊_VER_EN_TABLEAU_PUBLIC-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Ver en Tableau" />
   </a>
 </div>
 
@@ -166,6 +196,19 @@ Todo el pipeline analítico se empaquetó en una aplicación `Streamlit` diseña
 ## 🚀 Reproducibilidad del Experimento
 Para ejecutar el código fuente en local:
 ```bash
-git clone <tu-repo>
+git clone [https://github.com/Pablo-Santana-MX/Genomic-Classifier-Decision-Engine](https://github.com/Pablo-Santana-MX/Genomic-Classifier-Decision-Engine)
 pip install -r requirements.txt
 streamlit run streamlit_app/app.py
+```
+
+---
+
+## 📬 Contacto y Perfil de Investigación
+
+**Pablo Alberto Santana Flores**
+*Científico de Datos | Inteligencia de Decisiones | PhDc en Ciencias Marinas*
+
+Especializado en arquitecturas de datos modernas y Optimization Engines.
+*   💼 **LinkedIn:** [linkedin.com/in/pablo-santana-mx](https://mx.linkedin.com/in/pablo-santana-mx)
+*   🐙 **GitHub:** [github.com/Pablo-Santana-MX](https://github.com/Pablo-Santana-MX)
+*   ✉️ **Email:** [pablo.santana@outlook.com](mailto:pablo.santana@outlook.com)
