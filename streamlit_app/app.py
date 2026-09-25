@@ -227,7 +227,7 @@ tab1, tab2 = st.tabs([txt_tab1, txt_tab2])
 with tab1:
     st.subheader(txt_tab1_sub)
     st.markdown(txt_tab1_desc)
-    if df_ml is is not None:
+    if df_ml is not None:
         st.dataframe(df_ml, use_container_width=True)
     else:
         st.error(txt_err_file)
