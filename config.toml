@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#00B4D8" # Un azul médico brillante
+backgroundColor = "#F8F9FA" # Gris muy claro para el fondo
+secondaryBackgroundColor = "#FFFFFF" # Blanco puro para los paneles
+textColor = "#2B2D42" # Gris oscuro para el texto
+font = "sans serif"
