@@ -3,7 +3,7 @@
   <p><i>End-to-End Decision Intelligence: From Raw Genomic Data to Clinical Diagnostics</i></p>
 
   <p>
-    <a href="#-english-version">🇬🇧 English Version</a> | <a href="#-versión-en-español">🇲🇽 Versión en Español</a>
+    <a href="#english">🇬🇧 English Version</a> | <a href="#espanol">🇲🇽 Versión en Español</a>
   </p>
 
   <a href="https://genomic-ml.streamlit.app/">
@@ -15,7 +15,7 @@
 </div>
 
 ---
-
+<a id="english"></a>
 # 🇬🇧 English Version
 
 ## 🔬 Abstract / Executive Summary
@@ -83,7 +83,7 @@ Designed for medical personnel, enabling real-time interaction with the Machine 
 *   **Executive PDF Generator:** Closes the gap between data and clinical operations by allowing users to export static, customized PDF reports for integration into Electronic Health Records (EHR).
 
 <div align="center">
-  <img src="/gen-lm-stream.png" width="900" alt="Streamlit Clinical App Interface" />
+  <img src="gen-lm-stream.png" width="900" alt="Streamlit Clinical App Interface" />
   <br><br>
   <a href="https://genomic-ml.streamlit.app/">
     <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_APP-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open Live App" />
@@ -104,7 +104,7 @@ Designed for healthcare analysts and decision-makers, providing a static, consol
 
 ---
 <br>
-
+<a id="espanol"></a>
 # 🇲🇽 Versión en Español
 
 ## 🔬 Abstract / Resumen Ejecutivo
@@ -172,7 +172,7 @@ Diseñada para el personal médico, permite la interacción en tiempo real con e
 *   **Generador Ejecutivo PDF:** Cierra la brecha entre los datos y la operación clínica permitiendo a los usuarios exportar reportes PDF estáticos y personalizados para integrarlos al Expediente Clínico Electrónico (EHR).
 
 <div align="center">
-  <img src="/gen-lm-stream.png" width="900" alt="Interfaz de la App en Streamlit" />
+  <img src="gen-lm-stream.png" width="900" alt="Interfaz de la App en Streamlit" />
   <br><br>
   <a href="https://genomic-ml.streamlit.app/">
     <img src="https://img.shields.io/badge/🚀_ABRIR_APP_EN_VIVO-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Abrir Streamlit" />
